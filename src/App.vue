@@ -13,14 +13,22 @@ import Option from "./components/TOption.vue"
   </main>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
+#app {
+  background: url('./assets/images/background.svg');
+  background-size: cover;
+  width: 100%;
+  height: 100dvh;
+}
+
 .app {
   &__header {
     height: 3.5rem;
-    background: var(--primary);
+    background: var(--yellow);
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
   &__main {
     padding: 1rem;

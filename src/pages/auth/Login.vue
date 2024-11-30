@@ -2,15 +2,18 @@
 import { ref } from "vue"
 import TInput from "../../components/TInput.vue"
 
+
+
 </script>
 
 <template>
     <div class="login">
-LOGIN
+        <TInput />
     </div>
-    <TInput />
 </template>
 
 <style lang="scss">
-
+.login {
+    
+}
 </style>
