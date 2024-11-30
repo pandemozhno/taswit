@@ -1,5 +1,5 @@
 <script setup>
-import CheckBox from "./CheckBox.vue"
+import TCheckBox from "./TCheckBox.vue"
 import { defineProps, defineModel } from "vue"
 
 const {
@@ -12,7 +12,9 @@ const model = defineModel()
 
 <template>
     <div class="option">
-        <CheckBox v-model="model"/>
+        <CheckBox v-model="model">
+            <span>test</span>
+        </CheckBox>
         <p>{{ option }}</p>
     </div>
 </template>

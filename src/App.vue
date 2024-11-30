@@ -1,5 +1,5 @@
 <script setup>
-import Option from "./components/Option.vue"
+import Option from "./components/TOption.vue"
 
 
 </script>
@@ -9,7 +9,7 @@ import Option from "./components/Option.vue"
 
   </header>
   <main class="app__main">
-    <Option />
+    <RouterView />
   </main>
 </template>
 
@@ -24,6 +24,9 @@ import Option from "./components/Option.vue"
   }
   &__main {
     padding: 1rem;
+  }
+  &-option {
+    margin-bottom: 1rem;
   }
 }
 </style>
